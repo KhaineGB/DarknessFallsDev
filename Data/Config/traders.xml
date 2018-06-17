@@ -768,7 +768,9 @@ quality_mod: adjusts the price range of all items with a quality level.
 
 		<trader_item_group name="stashOnlyItemsLow" count="1">
 			<!-- <item name="beerBook" count="1"/> -->
-			<item name="runForestrunBook" count="1"/>
+			<item name="runForestrunBook" count="1" prob="0.5"/>
+			<item name="StealthTrainingBook" count="1" prob="0.5"/>
+			<item name="ArmorTrainingBook" count="1" prob="0.5"/>
 			<item name="plantedHop1" count="1,5"/>
 			<item name="batterybankSchematic" count="1" prob="0.5"/>
 			<item name="autoTurret" count="1,2" prob="0.5"/>
