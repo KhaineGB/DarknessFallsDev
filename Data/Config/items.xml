@@ -16500,6 +16500,48 @@ Mesh files no longer used:
 	</property>
 </item>
 
+<item id="2250" name="questTraderBuilding1">
+	<property name="CreativeMode" value="Player"/>
+	<property name="Meshfile" value="Items/Misc/Book"/>
+	<property name="Material" value="paper"/>
+	<property name="HoldType" value="21"/>
+	<property name="CustomIcon" value="questMaster"/>
+	<property name="DescriptionKey" value="questTraderBuilding1Desc"/>
+	<property name="Stacknumber" value="50"/> <!-- STK book -->
+	<property name="EconomicValue" value="200"/>
+	<property name="SellableToTrader" value="false"/>
+	<property class="Action1">
+		<property name="Class" value="Quest"/>
+		<property name="QuestGiven" value="quest_trader_building1"/>
+		<property name="Delay" value="0"/>
+	</property>
+	<property name="FuelValue" value="2"/>
+	<property name="Weight" value="2"/>
+	<property name="Group" value="Special Items"/>
+</item>
+
+<item id="2251" name="questTraderBuilding2">
+	<property name="Extends" value="questTraderBuilding1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="DescriptionKey" value="questTraderBuilding2Desc"/>
+	<property class="Action1">
+		<property name="Class" value="Quest"/>
+		<property name="QuestGiven" value="quest_trader_building2"/>
+		<property name="Delay" value="0"/>
+	</property>
+</item>
+
+<item id="2252" name="questTraderBuilding3">
+	<property name="Extends" value="questTraderBuilding1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="DescriptionKey" value="questTraderBuilding3Desc"/>
+	<property class="Action1">
+		<property name="Class" value="Quest"/>
+		<property name="QuestGiven" value="quest_trader_building3"/>
+		<property name="Delay" value="0"/>
+	</property>
+</item>
+
 <item id="2993" name="energyCell"> 
 	<property name="CustomIcon" value="oilpump" />
 	<property name="CustomIconTint" value="A83418"/>

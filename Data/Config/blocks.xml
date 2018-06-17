@@ -1244,8 +1244,8 @@ group desc for stuff like metal siding
 	<drop event="Harvest" name="rockSmall" count="2"/>
 	<drop event="Destroy" count="0"/>
 	<drop event="Fall" name="destroyedStone" count="1" prob="0.75" stick_chance="1"/>
-	<property name="EconomicValue" value="8"/>
-	<property name="EconomicBundleSize" value="40"/>
+	<property name="EconomicValue" value="4"/>
+	<property name="EconomicBundleSize" value="20"/>
 </block>
 
 <block id="132" name="concreteNoUpgradeMaster">
@@ -6364,6 +6364,12 @@ kind of free
 	<property name="Shape" value="New"/>
 	<property name="Model" value="wedge60"/> <property name="Place" value="TowardsPlacerInverted"/>
 	<property name="DowngradeBlock" value="rConcreteWedge"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="titaniumWedge"/>
+		<property name="Item" value="forgedTitanium"/>
+		<property name="ItemCount" value="8"/>
+		<property name="UpgradeHitCount" value="9"/>
+	</property>
 </block>
 
 <block id="642" name="secureReinforcedDoorWooden">
@@ -6483,6 +6489,12 @@ kind of free
 	<property name="Shape" value="New"/>
 	<property name="Model" value="wedge60_tip"/> <property name="Place" value="TowardsPlacerInverted"/>
 	<property name="DowngradeBlock" value="rConcreteWedgeTip"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="titaniumWedgeTip"/>
+		<property name="Item" value="forgedTitanium"/>
+		<property name="ItemCount" value="8"/>
+		<property name="UpgradeHitCount" value="9"/>
+	</property>
 </block>
 
 <block id="651" name="stainlessSteelHalf">
@@ -14748,12 +14760,24 @@ kind of free
 	<property name="Model" value="corner_rounded"/>
 	<property name="ImposterExchange" value="imposterBlock" param1="77"/>
 	<property name="DowngradeBlock" value="rConcreteCNRRoundTop"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="titaniumCNRRoundTop"/>
+		<property name="Item" value="forgedTitanium"/>
+		<property name="ItemCount" value="8"/>
+		<property name="UpgradeHitCount" value="9"/>
+	</property>
 </block>
 
 <block id="1778" name="stainlessSteelCNRRound">
 	<property name="Extends" value="stainlessSteelCNRRoundTop"/>
 	<property name="Model" value="corner_round1m"/>
 	<property name="DowngradeBlock" value="rConcreteCNRRound"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="titaniumCNRRound"/>
+		<property name="Item" value="forgedTitanium"/>
+		<property name="ItemCount" value="8"/>
+		<property name="UpgradeHitCount" value="9"/>
+	</property>
 </block>
 	<!-- 21 Free -->
 
@@ -18802,6 +18826,35 @@ kind of free
 	<drop event="Harvest" name="rawUranium" count="5" tool_category="harvestingTools"/>
 	<drop event="Destroy" count="0"/>
 	<drop event="Fall" name="rawUranium" count="1" prob="0.75" stick_chance="1"/>
+</block>
+
+<block id="959" name="titaniumWedge">
+	<property name="Extends" value="titaniumBlock"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="wedge60"/> <property name="Place" value="TowardsPlacerInverted"/>
+	<property name="DowngradeBlock" value="stainlessSteelWedge"/>
+</block>
+
+<block id="960" name="titaniumCNRRoundTop">
+	<property name="Extends" value="titaniumBlock"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corner_rounded"/>
+	<property name="ImposterExchange" value="imposterBlock" param1="77"/>
+	<property name="DowngradeBlock" value="stainlessSteelCNRRoundTop"/>
+</block>
+
+<block id="961" name="titaniumCNRRound">
+	<property name="Extends" value="titaniumBlock"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="corner_round1m"/>
+	<property name="DowngradeBlock" value="stainlessSteelCNRRound"/>
+</block>
+
+<block id="962" name="titaniumWedgeTip">
+	<property name="Extends" value="titaniumBlock"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="wedge60_tip"/> <property name="Place" value="TowardsPlacerInverted"/>
+	<property name="DowngradeBlock" value="stainlessSteelWedgeTip"/>
 </block>
 
 <!-- 950 to 984 max -->
