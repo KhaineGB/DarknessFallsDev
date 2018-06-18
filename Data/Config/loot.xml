@@ -307,6 +307,17 @@
 		<block name="cntWashingMachine" prob="0.5"/>
 		<block name="cntTrashCompactor"/>
 	</placeholder>
+	
+	<placeholder name="lootPOIHelper">
+		<block name="cntGarageStorage" prob="0.5"/>
+		<block name="cntLootCrateShamway" prob="0.5"/>
+		<block name="cntLootCrateShotgunMessiah" prob="0.25"/>
+		<block name="cntLootCrateWorkingStiffs" prob="0.25"/>
+		<block name="cntLootCrateConstructionSupplies" prob="0.25"/>
+		<block name="cntLootCrateLabEquipment" prob="0.25"/>
+		<block name="cntLootCrateHero" prob="0.1"/>
+		<block name="cntTrashCompactor"/>
+	</placeholder>
 
 </lootplaceholders>
 

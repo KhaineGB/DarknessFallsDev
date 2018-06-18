@@ -4194,7 +4194,7 @@
 	<property name="SoundPlayerLandThump" value="PlayerLandThump"/>
     <!-- Stats -->
     <property name="MaxHealth" value="150"/>
-    <property name="ExperienceGain" value="1275"/>
+    <property name="ExperienceGain" value="0"/>
     <property name="CorpseBlock" value="GoreBlock7Prefab"/>
 	<property name="LootListOnDeath" value="15"/>
 	<!-- <property name="CorpseBlock" value="cntNPCBackpack"/> -->
@@ -5721,13 +5721,13 @@
 	<property name="AttackTimeoutNight" value="2" />
 	<property name="ParticleOnDeath" value="blood_death" />
 	<property name="SoundRandomTime" value="30.0"/> <!-- It will play the roam every 60/30 seconds -->
-	<property name="SoundRandom" value="Enemies/Base_Zombie_Female/zombiefemaleroam"/>
+	<property name="SoundRandom" value="zombiefemalesnowroam"/>
 	<property name="SoundAlertTime" value="12.5"/> <!-- It will play the roam every 25/12.5 seconds-->
-	<property name="SoundAlert" value="Enemies/Base_Zombie_Female/zombiefemalealert"/>
-	<property name="SoundAttack" value="Enemies/Base_Zombie_Female/zombiefemaleattack"/>
-	<property name="SoundHurt" value="Enemies/Base_Zombie_Female/zombiefemalepain"/>
-	<property name="SoundDeath" value="Enemies/Base_Zombie_Female/zombiefemaledeath"/>
-	<property name="SoundSense" value="Enemies/Base_Zombie_Female/zombiefemalesense"/>
+	<property name="SoundAlert" value="zombiefemalesnowalert"/>
+	<property name="SoundAttack" value="zombiefemalesnowattack"/>
+	<property name="SoundHurt" value="zombiefemalesnowpain"/>
+	<property name="SoundDeath" value="zombiefemalesnowdeath"/>
+	<property name="SoundSense" value="zombiefemalesnowsense"/>
 	<property name="SoundFootstepModifier" value="Enemies/Snow_Zombie_Male/zombiesnowfootstep"/>
 	<property name="SoundSleeperSense" value="sleepersense"/>
 	<property name="SoundSleeperBackToSleep" value="sleeperbacktosleep"/>

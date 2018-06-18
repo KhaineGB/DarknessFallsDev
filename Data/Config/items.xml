@@ -11062,7 +11062,7 @@ Mesh files no longer used:
 	<property name="PartType" value="Barrel"/>
 	<property name="Weight" value="35"/>
 	<property class="Attributes">
-		<property name="EntityDamage" value="42,70"/>
+		<property name="EntityDamage" value="35,60"/>
 		<property name="BlockDamage" value="5,9.5"/>
 		<property name="DegradationMax" value="5600,14000"/>
 	</property>
@@ -15976,7 +15976,7 @@ Mesh files no longer used:
 	<property name="PartType" value="Barrel"/>
 	<property name="Weight" value="35"/>
 	<property class="Attributes">
-		<property name="EntityDamage" value="42,70"/>
+		<property name="EntityDamage" value="40,65"/>
 		<property name="BlockDamage" value="5,9.5"/>
 		<property name="DegradationMax" value="5600,14000"/>
 	</property>
@@ -16320,6 +16320,8 @@ Mesh files no longer used:
 </item>
 
 <item id="2240" name="scifiAIOT">
+	<property name="CustomIcon" value="aiot" />
+	<property name="DescriptionKey" value="scifiAIOTDesc"/>
 	<property name="Meshfile" value="#scifiAIOT?scifiAIOT"/>
 	<property name="Material" value="metal"/>
 	<property name="RepairTools" value="energyCell"/>
@@ -16598,8 +16600,8 @@ Mesh files no longer used:
 </item>
 
 <item id="2995" name="gunLaserPistol">
-	<property name="CustomIcon" value="gunP225" />
-	<property name="DescriptionKey" value="gunP225Desc"/>
+	<property name="CustomIcon" value="LaserPistol" />
+	<property name="DescriptionKey" value="LaserPistolDesc"/>
 	<property name="Meshfile" value="#FutureTech?LaserPistol"/>
 	<property name="Material" value="metal"/>
 	<property name="RepairTools" value="repairKit"/>
@@ -16718,6 +16720,8 @@ Mesh files no longer used:
 </item>
 
 <item id="3001" name="gunLaserRifle">
+	<property name="CustomIcon" value="LaserSniper" />
+	<property name="DescriptionKey" value="LaserRifleDesc"/>
 	<property name="Meshfile" value="#FutureTech?LaserSniper"/>
 	<property name="Material" value="metal"/>
 	<property name="RepairTools" value="repairKit"/>

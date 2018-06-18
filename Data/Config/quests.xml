@@ -1212,7 +1212,14 @@
 	repeatable="true" category_key="quest" offer_key="quest_testfetch_offer" difficulty="easy">
 		<objective type="Fetch" id="rawMeat" value="2"/>
 		<objective type="Fetch" id="canBoiledWater" value="2"/>
-		<objective type="Goto" id="trader" value="5" />
+		<objective type="Fetch" id="rawMeat" value="5"/>
+		<objective type="Fetch" id="canBoiledWater" value="5"/>
+		<objective type="Fetch" id="grilledMeat" value="5"/>
+		<objective type="Fetch" id="bottledWater" value="5"/>
+		<objective type="Fetch" id="blueberryPie" value="5"/>
+		<objective type="Fetch" id="goldenRodTea" value="5"/>
+		<objective type="Fetch" id="splint" value="5"/>
+		<objective type="Fetch" id="sterileBandage" value="5"/>
 		
 		<reward type="Item" id="scrapSkill" value="3" />
 		<reward type="Item" id="casinoCoin" value="200" />
