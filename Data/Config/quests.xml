@@ -364,6 +364,7 @@
 		<reward type="Quest" id="quest_classtrainingcivilian4" />
 		<reward type="Item" id="painkillers" value="1" />
 		<reward type="Item" id="bandage" value="1" />
+		<reward type="SkillPoints" value="5" />
     </quest>
 	
 	<quest id="quest_classtrainingcivilian4" group_name_key="quest_classtrainingcivilian" name_key="quest_classtrainingcivilian4" subtitle="Gather Wood and Craft Wood Frames" subtitle_key="quest_classtrainingcivilian4_subtitle" description_key="quest_classtrainingcivilian4_description"
@@ -438,7 +439,8 @@
 		<reward type="Quest" id="quest_classtrainingconstruction3" />
 		<reward type="Item" id="canBoiledWater" value="2" />
 		<reward type="Item" id="canBeef" value="2" />
-		<reward type="Skill" id="Scrap Iron Tools" value="1" stage="aftercomplete"/> 
+		<reward type="Skill" id="Scrap Iron Tools" value="1" stage="aftercomplete"/>
+		<reward type="Skill" id="craftSkillTools" value="1" stage="aftercomplete"/>
     </quest>
 	
 	<quest id="quest_classtrainingconstruction3" group_name_key="quest_classtrainingconstruction" name_key="quest_classtrainingconstruction3" subtitle="Craft Scrap Iron Tools" subtitle_key="quest_classtrainingconstruction3_subtitle" description_key="quest_classtrainingconstruction3_description"
@@ -557,6 +559,7 @@
 		<reward type="Item" id="gunHuntingRifle" value="50" />
 		<reward type="Item" id="762mmBullet" value="75" />
 		<reward type="Skill" id="Hunting Knife" value="1" stage="aftercomplete"/> 
+		<reward type="Skill" id="Better Lead Than Dead" value="1" stage="aftercomplete"/>
 
     </quest>
 	
@@ -602,6 +605,7 @@
 		<reward type="Recipe" id="hoeScrap"/>
 		<reward type="Item" id="canBoiledWater" value="2" />
 		<reward type="Item" id="canBeef" value="2" />
+		<reward type="Skill" id="craftSkillTools" value="1" stage="aftercomplete"/>
 	</quest>
 	
 	<quest id="quest_classtrainingfarmer3" group_name_key="quest_classtrainingfarmer" name_key="quest_classtrainingfarmer3" subtitle="Craft Scrap Iron Hoe and Plant Seeds" subtitle_key="quest_classtrainingfarmer3_subtitle" description_key="quest_classtrainingfarmer3_description"
@@ -641,6 +645,7 @@
 
 		<reward type="Skill" id="Mortar and Pestle" value="1" stage="aftercomplete"/> 
 		<reward type="Skill" id="Farming" value="1" stage="aftercomplete"/> 
+		<reward type="Skill" id="Boom Stick" value="1" stage="aftercomplete"/>
 		<reward type="Item" id="gunSawedOffPumpShotgun" value="50" />
 		<reward type="Item" id="shotgunShell" value="50" />
     </quest>
@@ -670,6 +675,7 @@
 		<reward type="Item" id="wornBoots" value="50" />
 		<reward type="Item" id="miningHelmet" value="50" />
 		<reward type="Quest" id="quest_classtrainingminer2" />
+		<reward type="Skill" id="craftSkillTools" value="1" stage="aftercomplete"/>
     </quest>
 	
 	<quest id="quest_classtrainingminer2" group_name_key="quest_classtrainingminer" name_key="quest_classtrainingminer2" subtitle="Gather Resources" subtitle_key="quest_classtrainingminer2_subtitle" description_key="quest_classtrainingminer2_description"
@@ -727,6 +733,7 @@
 		
 		<reward type="Item" id="augerSchematic"/>
 		<reward type="Skill" id="ClassMiner" value="1" stage="aftercomplete"/> 
+		<reward type="Skill" id="Miner 69er" value="1" stage="aftercomplete"/>
     </quest>
 	
 	<!-- Mechanic Class Quest Chain -->
@@ -751,21 +758,23 @@
 	<quest id="quest_classtrainingmechanic2" group_name_key="quest_classtrainingmechanic" name_key="quest_classtrainingmechanic2" subtitle="Take Apart A Car" subtitle_key="quest_classtrainingmechanic2_subtitle" description_key="quest_classtrainingmechanic2_description"
 	icon="ui_game_symbol_wrench" category_key="quest" offer_key="quest_classtrainingmechanic_offer" >
 
-		<objective type="FetchKeep" id="gasCan" value="100"/>
+		<objective type="FetchKeep" id="gasCan" value="50"/>
 		<objective type="FetchKeep" id="scrapIron" value="40"/>
 	
 		<reward type="Skill" id="Wrench" value="1" stage="aftercomplete"/> 
 		<reward type="Item" id="firstAidBandage" value="2" />
-		<reward type="Quest" id="quest_classtrainingmechanic3" />		
+		<reward type="Quest" id="quest_classtrainingmechanic3" />
+		<reward type="Skill" id="craftSkillTools" value="1" stage="aftercomplete"/>		
 	</quest>
 	
 	<quest id="quest_classtrainingmechanic3" group_name_key="quest_classtrainingmechanic" name_key="quest_classtrainingmechanic3" subtitle="Take Apart Several Cars" subtitle_key="quest_classtrainingmechanic3_subtitle" description_key="quest_classtrainingmechanic3_description"
 	icon="ui_game_symbol_wrench" category_key="quest" offer_key="quest_classtrainingmechanic_offer" >
 		
-		<objective type="FetchKeep" id="gasCan" value="600"/>
+		<objective type="FetchKeep" id="gasCan" value="300"/>
 		
 		<reward type="Item" id="wrench" value="100" />
 		<reward type="Quest" id="quest_classtrainingmechanic4" />
+		<reward type="Skill" id="BadMechanic" value="1" stage="aftercomplete"/>
     </quest>
 	
 	<quest id="quest_classtrainingmechanic4" group_name_key="quest_classtrainingmechanic" name_key="quest_classtrainingmechanic4" subtitle="Find a battery and engine" subtitle_key="quest_classtrainingmechanic4_subtitle" description_key="quest_classtrainingmechanic4_description"
@@ -814,6 +823,7 @@
 		<reward type="Item" id="tshirtBlack" value="50" />
 		<reward type="Item" id="suitPantsBlack" value="50" />		
 		<reward type="Item" id="dressShoesBlack" value="50" />
+		<reward type="Skill" id="craftSkillScience" value="1" stage="aftercomplete"/>	
 		
 		<reward type="Quest" id="quest_classtrainingscientist2" />
     </quest>
@@ -836,6 +846,7 @@
 
 		<reward type="Item" id="canBoiledWater" value="2" />
 		<reward type="Item" id="canChicken" value="2" />
+		<reward type="Skill" id="craftSkillScience" value="1" stage="aftercomplete"/>	
 		<reward type="Quest" id="quest_classtrainingscientist4" />
     </quest>
 	
@@ -884,6 +895,7 @@
 		<reward type="Item" id="wornBoots" value="50" />
 		<reward type="Item" id="ballCap" value="50" />
 		<reward type="Quest" id="quest_classtrainingsecurity2" />
+		<reward type="Skill" id="craftSkillWeapons" value="1" stage="aftercomplete"/>
     </quest>
 	
 	<quest id="quest_classtrainingsecurity2" group_name_key="quest_classtrainingsecurity" name_key="quest_classtrainingsecurity2" subtitle="Craft Animal Hide Armor" subtitle_key="quest_classtrainingsecurity2_subtitle" description_key="quest_classtrainingsecurity2_description"
@@ -918,6 +930,7 @@
 		<objective type="FetchKeep" id="9mmBullet" value="50" />
 
 		<reward type="SkillPoints" value="5" />
+		<reward type="Skill" id="craftSkillGuns" value="1" stage="aftercomplete"/>
 		<reward type="Quest" id="quest_classtrainingsecurity5" />
     </quest>
 	
@@ -960,6 +973,7 @@
 		<reward type="Item" id="tshirtBlack" value="50" />
 		<reward type="Item" id="armyPants" value="50" />
 		<reward type="Item" id="cowboyBootsBlack" value="50" /> 
+		<reward type="Skill" id="craftSkillWeapons" value="1" stage="aftercomplete"/>
 		
 		<reward type="Quest" id="quest_classtrainingsurvivalist2" />
     </quest>
@@ -984,6 +998,7 @@
 		<objective type="Craft" id="charredMeat" value="2" />
 
 		<reward type="Item" id="firstAidBandage" value="2" />
+		<reward type="Skill" id="craftSkillArmor" value="1" stage="aftercomplete"/>
 		<reward type="Quest" id="quest_classtrainingsurvivalist4" />
     </quest>
 	
