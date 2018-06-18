@@ -3636,7 +3636,7 @@ group desc for stuff like metal siding
 	<property name="DowngradeBlock" value="cntDeskSafeInsecure"/>
 	<property class="UpgradeBlock">
 		<property name="ToBlock" value="cntDeskSafeInsecure"/>
-		<property name="Item" value="Lockpick"/>
+		<property name="Item" value="LockComponents"/>
 		<property name="ItemCount" value="1"/>
 		<property name="UpgradeHitCount" value="25"/>
 	</property>
@@ -3660,7 +3660,7 @@ group desc for stuff like metal siding
 	<property name="DowngradeBlock" value="cntWallSafeInsecure"/>
 	<property class="UpgradeBlock">
 		<property name="ToBlock" value="cntWallSafeInsecure"/>
-		<property name="Item" value="Lockpick"/>
+		<property name="Item" value="LockComponents"/>
 		<property name="ItemCount" value="1"/>
 		<property name="UpgradeHitCount" value="25"/>
 	</property>
@@ -6187,7 +6187,7 @@ kind of free
 	<property name="DowngradeBlock" value="cntGunSafeInsecure"/>
 	<property class="UpgradeBlock">
 		<property name="ToBlock" value="cntGunSafeInsecure"/>
-		<property name="Item" value="Lockpick"/>
+		<property name="Item" value="LockComponents"/>
 		<property name="ItemCount" value="1"/>
 		<property name="UpgradeHitCount" value="25"/>
 	</property>
