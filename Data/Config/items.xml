@@ -15048,7 +15048,7 @@ Mesh files no longer used:
 	<property name="Meshfile" value="#Lockpick?handInvis"/>
 	<property name="Material" value="metal"/>
 	<property name="RepairTools" value="scrapIron"/>
-	<property name="HoldType" value="2"/>
+	<property name="HoldType" value="0"/>
 	<property class="Action0">
 		<property name="Class" value="Melee"/>
 		<property name="Delay" value="0.75"/>
@@ -16837,6 +16837,47 @@ Mesh files no longer used:
 	<property name="CraftingSkillGroup" value="craftFutureTech"/>
 	<property name="EconomicValue" value="1875"/>
 	<property name="SellableToTrader" value="false" />
+</item>
+
+<item id="4000" name="screenshotItem"> 
+	<property name="Extends" value="handPlayer"/>
+	<property name="CreativeMode" value="Dev"/>
+    <property name="CustomIcon" value="ironknuckles"/>
+	<property name="DescriptionKey" value="screenshotDesc"/>
+	<property name="Meshfile" value="#Lockpick?handInvis"/>
+	<property name="Material" value="metal"/>
+	<property name="RepairTools" value="scrapIron"/>
+	<property name="HoldType" value="2"/>
+	<property class="Action0">
+		<property name="Class" value="Melee"/>
+		<property name="Delay" value="0.75"/>
+		<property name="Range" value="2.2"/>
+		<property name="Stamina_usage" value="4"/>
+		<property name="Buff" value="bleeding,criticalBlunt"/>
+		<property name="Buff_chance" value="0.5,0.5"/>
+		<property name="DamageBonus.head" value="6"/>
+		<property name="DamageBonus.organic" value="5"/>
+	</property>
+	<property class="Action1">
+		<property name="Class" value="Melee"/>
+		<property name="Delay" value="0.75"/>
+		<property name="Range" value="2.5"/>
+		<property name="Stamina_usage" value="4"/>
+		<property name="Buff" value="bleeding,criticalBlunt"/>
+		<property name="Buff_chance" value="0.5,0.5"/>
+		<property name="DamageBonus.head" value="6"/>
+		<property name="DamageBonus.organic" value="5"/>
+	</property>
+	<property class="Attributes">
+		<property name="EntityDamage" value="8,19"/>
+		<property name="BlockDamage" value="2,4"/>
+		<property name="DegradationMax" value="200,600"/>
+		<property name="DegradationRate" value="1,1"/>
+	</property>
+	<property name="CritChance" value="0.3"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property name="ActionSkillGroup" value="Unarmed"/>
+	<property name="CraftingSkillGroup" value="craftSkillWeapons"/>
 </item>
 
 </items>
