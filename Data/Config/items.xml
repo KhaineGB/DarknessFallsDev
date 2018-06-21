@@ -16277,7 +16277,8 @@ Mesh files no longer used:
 <!-- Rare Perk Books -->
 
 <item id="2236" name="StealthTrainingBook">
-	<property name="CustomIcon" value="runForestrun" />
+	<property name="CustomIcon" value="civilianBook" />
+	<property name="CustomIconTint" value="ea0606"/>
 	<property name="DescriptionKey" value="StealthTrainingBookDesc"/>
 	<property name="Extends" value="schematicMaster"/>
 	<property name="EconomicValue" value="1000"/>
@@ -16287,8 +16288,9 @@ Mesh files no longer used:
 </item>
 
 <item id="2237" name="ArmorTrainingBook">
-	<property name="CustomIcon" value="runForestrun" />
-	<property name="DescriptionKey" value="StealthTrainingBookDesc"/>
+	<property name="CustomIcon" value="securityBook" />
+	<property name="CustomIconTint" value="ea0606"/>
+	<property name="DescriptionKey" value="ArmorTrainingBookDesc"/>
 	<property name="Extends" value="schematicMaster"/>
 	<property name="EconomicValue" value="1000"/>
 	<property class="Action1">
@@ -16560,7 +16562,7 @@ Mesh files no longer used:
 	<property class="Action0"> <!-- AttackAction -->
 		<property name="Class" value="Melee"/>
 		<property name="Delay" value="1.2"/>
-		<property name="Range" value="2.2"/>
+		<property name="Range" value="2.6"/>
 		<property name="Sphere" value="0.1"/>
 		<property name="Sound_start" value="swoosh"/>
 		<property name="Stamina_usage" value="3.25"/>

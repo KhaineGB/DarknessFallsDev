@@ -5902,6 +5902,79 @@
 	<property name="Buffs" value="isZombieBoss"/>
 </entity_class>
 
+<entity_class name="Sheep" extends="animalTemplateHostile">
+	<!-- We are using the Animal Animation, since the BipedAnimation is a bit wonky with the hit animation -->
+	<property name="AvatarController" value="AnimationSDX, Mods" />
+	<!-- With RootMotion true, the zombie just kind of chills out in one place. Set to false to watch it move. -->
+	<property name="RootMotion" value="false" />
+    <property name="Mesh" value="#Badger?Badger" />
+    <property name="Class" value="EntityAnimalStag" />
+    <property name="AnimationIdle" value="idle" />
+    <property name="AnimationMainAttack" value="attack" />
+    <property name="AnimationPain" value="hit" />
+    <property name="AnimationDeath" value="die" />
+    <property name="AnimationRun" value="run" />
+    <property name="AnimationWalk" value="walk" />
+    <property name="WanderSpeed" value="0.8" />
+    <property name="ApproachSpeed" value="1.2" />
+    <property name="NightWanderSpeed" value="1.0" />
+    <property name="NightApproachSpeed" value="1.2" />
+    <property name="HasRagdoll" value="false" />
+    <property name="RootMotion" value="false" />
+	<!-- A15 Hornet Properties -->
+	<property name="HandItem" value="stingHornet" />
+	<property name="MaxHealth" value="50" />
+	<property name="MaxViewAngle" value="180" />
+	<property name="Weight" value="20" />
+	<property name="Immunity" value="sickness;disease;wellness" />
+	<property name="CanClimbLadders" value="false" />
+	<property name="IsEnemyEntity" value="false" />
+	<property name="SurfaceCategory" value="organic" />
+	<property name="AttackTimeoutDay" value="2" /> 
+	<property name="AttackTimeoutNight" value="2" />
+	<property name="ParticleOnDeath" value="blood_death" />
+	<property name="SoundRandomTime" value="60.0" />
+	<property name="SoundRandom" value="hornetroam" />
+	<property name="SoundAlert" value="hornetalert" />
+	<property name="SoundHurt" value="hornetpain" />
+	<property name="SoundDeath" value="hornetdeath" />
+	<property name="SoundAttack" value="hornetattack" />
+	<property name="SoundSense" value="hornetsense" />
+	<property name="SoundGiveUp" value="hornetgiveup" />
+	<property name="SpawnOnGround" value="true" />
+	<property name="ExperienceGain" value="120"/>
+	<property name="CorpseBlockChance" value="0"/>
+	<property name="TimeStayAfterDeath" value="300" />
+	<property name="DeadBodyHitPoints" value="80" /> 
+	<!-- AI Stuff -->
+	<property name="AITask-1" value="BreakDoor"/>
+	<property name="AITask-2" value="BreakBlock"/>
+	<property name="AITask-3" value="Territorial"/>
+	<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityNPC"/>
+    <property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityBandit"/>
+    <property name="AITask-6" value="ApproachAndAttackTarget" param1="EntitySurvivor"/>
+    <property name="AITask-7" value="ApproachAndAttackTarget" param1="EntityAnimalStag"/>
+    <property name="AITask-8" value="ApproachAndAttackTarget" param1="EntityAnimalRabbit"/>
+    <property name="AITask-9" value="ApproachAndAttackTarget" param1="EntityAnimalBear"/>
+	<property name="AITask-10" value="ApproachSpot"/>
+	<property name="AITask-11" value="Wander"/>
+	<property name="AITarget-1" value="SetAsTargetIfHurt" param1="EntityNPC"/>
+	<property name="AITarget-2" value="SetAsTargetIfHurt" param1="EntityPlayer"/>
+	<property name="AITarget-3" value="SetAsTargetIfHurt" param1="EntitySurvivor"/>
+	<property name="AITarget-4" value="SetAsTargetIfHurt" param1="EntityBandit"/>
+	<property name="AITarget-5" value="BlockingTargetTask"/>
+	<property name="AITarget-6" value="SetNearestCorpseAsTarget" param1="EntityPlayer"/>
+	<property name="AITarget-7" value="SetNearestEntityAsTarget" param1="EntityNPC"/>
+	<property name="AITarget-8" value="SetNearestEntityAsTarget" param1="EntityPlayer"/>
+	<property name="AITarget-9" value="SetNearestEntityAsTarget" param1="EntitySurvivor"/>
+	<property name="AITarget-10" value="SetNearestEntityAsTarget" param1="EntityBandit"/>
+	<property name="AITarget-11" value="SetNearestEntityAsTarget" param1="EntityAnimalBear" />
+	<property name="AITarget-12" value="SetNearestEntityAsTarget" param1="EntityAnimalStag" />
+	<property name="AITarget-13" value="SetNearestEntityAsTarget" param1="EntityAnimalRabbit" />
+	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="2" />
+	<drop event="Harvest" name="foodHoney" tool_category="Butcher" count="1" prob="1" />
+</entity_class>
+
 </entity_classes>
 
 <!-- Radiated, harder to decap

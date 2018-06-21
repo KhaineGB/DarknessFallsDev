@@ -261,6 +261,19 @@
 			<window name="prefabList" />
 		</window_group>
 		
+		<!-- Big Forge Mod -->
+		
+		<window_group name="workstation_BigForge" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowToolsForge" />
+			<window name="windowFuel" />
+			<window name="windowBigForgeInput" />
+			<window name="windowBigForgeOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+		
 		<!-- Advanced Forge Mod -->
 		
 		<window_group name="workstation_advForge" controller="XUiC_WorkstationWindowGroup">
