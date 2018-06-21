@@ -17958,7 +17958,7 @@ kind of free
 	<property name="DescriptionKey" value="radioDesc"/>
 	<property name="Class" value="Workstation"/>
 	<property name="Material" value="wood"/>
-	<property name="MaxDamage" value="1600"/>
+	<property name="MaxDamage" value="500"/>
 	<property name="StabilitySupport" value="true"/>
 	<property name="Shape" value="ModelEntity" />
 	<property name="Model" value="#Radio?Radio" />
@@ -17978,12 +17978,7 @@ kind of free
 	<property class="RepairItems">
 		<property name="forgedSteel" value="50"/>
 	</property>
-	<drop event="Harvest" name="mechanicalParts" count="2,10" prob="0.1" tool_category="Disassemble"/>
-	<drop event="Harvest" name="forgedSteel" count="10" prob="0.1" tool_category="Disassemble"/>
-	<drop event="Harvest" name="electricParts" count="1,5" tool_category="Disassemble"/>
-	<drop event="Harvest" name="electronicParts" count="1,5" prob="0.4" tool_category="Disassemble"/>
-	<drop event="Harvest" name="scrapIron" count="20"/>
-	<drop event="Destroy" count="0"/>
+	<drop event="Destroy" name="radio" count="1" tool_category="Disassemble" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 	<property name="TakeDelay" value="15"/>
 	<property name="Group" value="Basics,Building"/>
