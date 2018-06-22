@@ -423,8 +423,8 @@
 		<reward type="Item" id="brownDenimPants" value="50" />
 		<reward type="Item" id="wornBoots" value="50" />
 		<reward type="Item" id="miningHelmet" value="50" />
+		<reward type="Item" id="toolCraftingBook" value="1" />
 		<reward type="Quest" id="quest_classtrainingconstruction2" />
-		<reward type="Skill" id="craftSkillTools" value="1" stage="aftercomplete"/>
     </quest>
 	
 	<quest id="quest_classtrainingconstruction2" group_name_key="quest_classtrainingconstruction" name_key="quest_classtrainingconstruction2" subtitle="Craft Wood Frames and Flagstone Blocks" subtitle_key="quest_classtrainingconstruction2_subtitle" description_key="quest_classtrainingconstruction2_description"
@@ -439,8 +439,8 @@
 		<reward type="Quest" id="quest_classtrainingconstruction3" />
 		<reward type="Item" id="canBoiledWater" value="2" />
 		<reward type="Item" id="canBeef" value="2" />
+		<reward type="Item" id="toolCraftingBook" value="1" />
 		<reward type="Skill" id="Scrap Iron Tools" value="1" stage="aftercomplete"/>
-		<reward type="Skill" id="craftSkillTools" value="1" stage="aftercomplete"/>
     </quest>
 	
 	<quest id="quest_classtrainingconstruction3" group_name_key="quest_classtrainingconstruction" name_key="quest_classtrainingconstruction3" subtitle="Craft Scrap Iron Tools" subtitle_key="quest_classtrainingconstruction3_subtitle" description_key="quest_classtrainingconstruction3_description"
@@ -605,7 +605,7 @@
 		<reward type="Recipe" id="hoeScrap"/>
 		<reward type="Item" id="canBoiledWater" value="2" />
 		<reward type="Item" id="canBeef" value="2" />
-		<reward type="Skill" id="craftSkillTools" value="1" stage="aftercomplete"/>
+		<reward type="Item" id="toolCraftingBook" value="1" />
 	</quest>
 	
 	<quest id="quest_classtrainingfarmer3" group_name_key="quest_classtrainingfarmer" name_key="quest_classtrainingfarmer3" subtitle="Craft Scrap Iron Hoe and Plant Seeds" subtitle_key="quest_classtrainingfarmer3_subtitle" description_key="quest_classtrainingfarmer3_description"
@@ -675,7 +675,7 @@
 		<reward type="Item" id="wornBoots" value="50" />
 		<reward type="Item" id="miningHelmet" value="50" />
 		<reward type="Quest" id="quest_classtrainingminer2" />
-		<reward type="Skill" id="craftSkillTools" value="1" stage="aftercomplete"/>
+		<reward type="Item" id="toolCraftingBook" value="1" />
     </quest>
 	
 	<quest id="quest_classtrainingminer2" group_name_key="quest_classtrainingminer" name_key="quest_classtrainingminer2" subtitle="Gather Resources" subtitle_key="quest_classtrainingminer2_subtitle" description_key="quest_classtrainingminer2_description"
@@ -764,7 +764,7 @@
 		<reward type="Skill" id="Wrench" value="1" stage="aftercomplete"/> 
 		<reward type="Item" id="firstAidBandage" value="2" />
 		<reward type="Quest" id="quest_classtrainingmechanic3" />
-		<reward type="Skill" id="craftSkillTools" value="1" stage="aftercomplete"/>		
+		<reward type="Item" id="toolCraftingBook" value="1" />	
 	</quest>
 	
 	<quest id="quest_classtrainingmechanic3" group_name_key="quest_classtrainingmechanic" name_key="quest_classtrainingmechanic3" subtitle="Take Apart Several Cars" subtitle_key="quest_classtrainingmechanic3_subtitle" description_key="quest_classtrainingmechanic3_description"
@@ -823,7 +823,7 @@
 		<reward type="Item" id="tshirtBlack" value="50" />
 		<reward type="Item" id="suitPantsBlack" value="50" />		
 		<reward type="Item" id="dressShoesBlack" value="50" />
-		<reward type="Skill" id="craftSkillScience" value="1" stage="aftercomplete"/>	
+		<reward type="Item" id="scienceCraftingBook" value="1" />
 		
 		<reward type="Quest" id="quest_classtrainingscientist2" />
     </quest>
@@ -895,7 +895,7 @@
 		<reward type="Item" id="wornBoots" value="50" />
 		<reward type="Item" id="ballCap" value="50" />
 		<reward type="Quest" id="quest_classtrainingsecurity2" />
-		<reward type="Skill" id="craftSkillWeapons" value="1" stage="aftercomplete"/>
+		<reward type="Item" id="weaponCraftingBook" value="1" />
     </quest>
 	
 	<quest id="quest_classtrainingsecurity2" group_name_key="quest_classtrainingsecurity" name_key="quest_classtrainingsecurity2" subtitle="Craft Animal Hide Armor" subtitle_key="quest_classtrainingsecurity2_subtitle" description_key="quest_classtrainingsecurity2_description"
@@ -930,7 +930,7 @@
 		<objective type="FetchKeep" id="9mmBullet" value="50" />
 
 		<reward type="SkillPoints" value="5" />
-		<reward type="Skill" id="craftSkillGuns" value="1" stage="aftercomplete"/>
+		<reward type="Item" id="gunCraftingBook" value="1" />
 		<reward type="Quest" id="quest_classtrainingsecurity5" />
     </quest>
 	
@@ -973,7 +973,7 @@
 		<reward type="Item" id="tshirtBlack" value="50" />
 		<reward type="Item" id="armyPants" value="50" />
 		<reward type="Item" id="cowboyBootsBlack" value="50" /> 
-		<reward type="Skill" id="craftSkillWeapons" value="1" stage="aftercomplete"/>
+		<reward type="Item" id="weaponCraftingBook" value="1" />
 		
 		<reward type="Quest" id="quest_classtrainingsurvivalist2" />
     </quest>
@@ -998,7 +998,7 @@
 		<objective type="Craft" id="charredMeat" value="2" />
 
 		<reward type="Item" id="firstAidBandage" value="2" />
-		<reward type="Skill" id="craftSkillArmor" value="1" stage="aftercomplete"/>
+		<reward type="Item" id="armorCraftingBook" value="1" />
 		<reward type="Quest" id="quest_classtrainingsurvivalist4" />
     </quest>
 	

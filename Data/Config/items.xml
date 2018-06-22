@@ -16546,6 +16546,61 @@ Mesh files no longer used:
 	</property>
 </item>
 
+<item id="2253" name="weaponCraftingBook">
+	<property name="CustomIcon" value="skillBlades" />
+	<property name="CustomIconTint" value="FFFF00"/>
+	<property name="DescriptionKey" value="weaponCraftingBookDesc"/>
+	<property name="Extends" value="schematicMaster"/>
+	<property name="EconomicValue" value="1000"/>
+	<property class="Action1">
+		<property name="Skills_to_gain" value="craftSkillWeapons"/>
+	</property>
+</item>
+
+<item id="2254" name="toolCraftingBook">
+	<property name="CustomIcon" value="constructionBook" />
+	<property name="CustomIconTint" value="FFFF00"/>
+	<property name="DescriptionKey" value="toolCraftingBookDesc"/>
+	<property name="Extends" value="schematicMaster"/>
+	<property name="EconomicValue" value="1000"/>
+	<property class="Action1">
+		<property name="Skills_to_gain" value="craftSkillTools"/>
+	</property>
+</item>
+
+<item id="2255" name="gunCraftingBook">
+	<property name="CustomIcon" value="hunterBook" />
+	<property name="CustomIconTint" value="FFFF00"/>
+	<property name="DescriptionKey" value="gunCraftingBookDesc"/>
+	<property name="Extends" value="schematicMaster"/>
+	<property name="EconomicValue" value="1000"/>
+	<property class="Action1">
+		<property name="Skills_to_gain" value="craftSkillGuns"/>
+	</property>
+</item>
+
+<item id="2256" name="scienceCraftingBook">
+	<property name="CustomIcon" value="scientistBook" />
+	<property name="CustomIconTint" value="FFFF00"/>
+	<property name="DescriptionKey" value="scienceCraftingBookDesc"/>
+	<property name="Extends" value="schematicMaster"/>
+	<property name="EconomicValue" value="1000"/>
+	<property class="Action1">
+		<property name="Skills_to_gain" value="craftSkillScience"/>
+	</property>
+</item>
+
+<item id="2257" name="armorCraftingBook">
+	<property name="CustomIcon" value="securityBook" />
+	<property name="CustomIconTint" value="FFFF00"/>
+	<property name="DescriptionKey" value="armorCraftingBookDesc"/>
+	<property name="Extends" value="schematicMaster"/>
+	<property name="EconomicValue" value="1000"/>
+	<property class="Action1">
+		<property name="Skills_to_gain" value="craftSkillArmor"/>
+	</property>
+</item>
+
 <item id="2992" name="laserSword">
 	<property name="CustomIcon" value="titaniumMachete" />
 	<property name="DescriptionKey" value="laserSwordDesc"/>
