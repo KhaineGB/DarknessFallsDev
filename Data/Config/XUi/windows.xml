@@ -64,13 +64,13 @@
 					<rect width="30" height="80" controller="HUDStatBar" stat_type="Health" visible="{StatVisible}">
 						<sprite depth="3" name="BarContent" sprite="healthA12" atlas="ItemIconAtlas" height="40" width="85" type="filled" fill="0" rotation="90" globalopacity="false" foregroundlayer="true"/>
 						<sprite depth="4" name="Icon" pos="-4,26" atlas="ItemIconAtlas" sprite="healthiconA12" size="43,30" foregroundlayer="true" />
-						<label depth="6" name="TextContent" pos="3,55" font_size="32" color="[white]" justify="center" pivot="topleft" text="{statcurrent}" height="36" foregroundlayer="true"/>
+						<label depth="6" name="TextContent" pos="3,55" font_size="28" color="[white]" justify="center" pivot="topleft" text="{statcurrent}" height="36" foregroundlayer="true"/>
 					</rect>	
 
 					<rect width="30" height="80" controller="HUDStatBar" stat_type="Stamina" visible="{StatVisible}">
 						<sprite depth="3" name="BarContent" sprite="staminaA12" atlas="ItemIconAtlas" height="40" width="85" type="filled" fill="0" rotation="90" globalopacity="false" foregroundlayer="true"/>
 						<sprite depth="4" name="Icon" pos="-4,26" atlas="ItemIconAtlas" sprite="staminaiconA12" size="43,30" foregroundlayer="true" />
-						<label depth="6" name="TextContent" pos="3,55" font_size="32" color="[white]" justify="center" pivot="topleft" text="{statcurrent}" height="36" foregroundlayer="true" overflow="ClampContent"/>
+						<label depth="6" name="TextContent" pos="3,55" font_size="28" color="[white]" justify="center" pivot="topleft" text="{statcurrent}" height="36" foregroundlayer="true" overflow="ClampContent"/>
 					</rect>
 				</grid>
 		
@@ -78,13 +78,13 @@
 					<rect width="30" height="80" controller="HUDStatBar" stat_type="Food" visible="{StatVisible}"> 
 						<sprite depth="3" name="BarContent" sprite="foodA12" atlas="ItemIconAtlas" height="40" width="85" type="filled" fill="0" rotation="90" globalopacity="false" foregroundlayer="true"/>
 						<sprite depth="4" name="Icon" pos="-4,26" atlas="ItemIconAtlas" sprite="foodiconA12" size="43,30" foregroundlayer="true" />
-						<label depth="6" name="TextContent" pos="3,55" font_size="32" color="[white]" justify="center" pivot="topleft" text="{statcurrent}" height="36" foregroundlayer="true"/>
+						<label depth="6" name="TextContent" pos="3,55" font_size="28" color="[white]" justify="center" pivot="topleft" text="{statcurrent}" height="36" foregroundlayer="true"/>
 					</rect>
 			
 					<rect width="30" height="80" controller="HUDStatBar" stat_type="Water" visible="{StatVisible}">
 						<sprite depth="3" name="BarContent" sprite="waterA12" atlas="ItemIconAtlas" height="40" width="85" type="filled" fill="0" rotation="90" globalopacity="false" foregroundlayer="true"/>
 						<sprite depth="4" name="Icon" pos="-4,26" atlas="ItemIconAtlas" sprite="watericonA12" size="43,30" foregroundlayer="true" />
-						<label depth="6" name="TextContent" pos="3,55" font_size="32" color="[white]" justify="center" pivot="topleft" text="{statcurrent}" height="36" foregroundlayer="true" flip="Vertically"/>
+						<label depth="6" name="TextContent" pos="3,55" font_size="28" color="[white]" justify="center" pivot="topleft" text="{statcurrent}" height="36" foregroundlayer="true" flip="Vertically"/>
 					</rect>
 				</grid>		
 			</rect>
