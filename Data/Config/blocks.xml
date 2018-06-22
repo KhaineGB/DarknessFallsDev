@@ -19231,8 +19231,8 @@ kind of free
 	<property name="CustomIcon" value="BigForge" />
 	<property name="DescriptionKey" value="BigForgeDesc"/>
 	<property name="Extends" value="forge" />
-	<property name="Model" value="#Forge?ForgePrefab" />
-	<property name="MultiBlockDim" value="2,5,3" />
+	<property name="Model" value="#Forge?Forge" />
+	<property name="MultiBlockDim" value="2,3,1" />
 	<property name="ParticleName" value="campfire" />
 	<property name="ParticleOffset" value="0,1.2,0.5" />
 	<property name="Shape" value="ModelEntity" />

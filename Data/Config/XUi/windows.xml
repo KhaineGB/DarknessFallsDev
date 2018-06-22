@@ -2924,7 +2924,7 @@
 		<sprite depth="3" name="backgroundMain" sprite="menu_empty3px" pos="0,-46" height="303" color="[black]" type="sliced" fillcenter="false" on_press="true" />
 		<rect name="content" depth="1" pos="0,-46" height="303">
 
-			<grid depth="7" rows="4" cols="1" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationMaterialInputGrid" repeat_content="true">
+			<grid depth="7" rows="3" cols="1" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationMaterialInputGrid" repeat_content="true">
 				<item_stack name="0"/>
 			</grid>
 
@@ -2963,7 +2963,7 @@
 		<sprite depth="3" name="backgroundMain" sprite="menu_empty3px" pos="0,-46" height="303" color="[black]" type="sliced" fillcenter="false" on_press="true" />
 		<rect name="content" depth="1" pos="0,-46" height="153">
 
-			<grid depth="7" rows="4" cols="1" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationMaterialInputGrid" repeat_content="true">
+			<grid depth="7" rows="3" cols="1" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationMaterialInputGrid" repeat_content="true">
 				<item_stack name="0"/>
 			</grid>
 		</rect>
