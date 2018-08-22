@@ -785,7 +785,6 @@
 		
 		<reward type="Item" id="canBoiledWater" value="2" />
 		<reward type="Item" id="canChicken" value="2" />
-		<reward type="Recipe" id="gasCan"/>
 		<reward type="Quest" id="quest_classtrainingmechanic5" />
     </quest>
 	
@@ -846,7 +845,7 @@
 
 		<reward type="Item" id="canBoiledWater" value="2" />
 		<reward type="Item" id="canChicken" value="2" />
-		<reward type="Skill" id="craftSkillScience" value="1" stage="aftercomplete"/>	
+		<reward type="Item" id="scienceCraftingBook" value="1" />
 		<reward type="Quest" id="quest_classtrainingscientist4" />
     </quest>
 	
@@ -929,7 +928,6 @@
 		<objective type="FetchKeep" id="gunPistol" value="1" />
 		<objective type="FetchKeep" id="9mmBullet" value="50" />
 
-		<reward type="SkillPoints" value="5" />
 		<reward type="Item" id="gunCraftingBook" value="1" />
 		<reward type="Quest" id="quest_classtrainingsecurity5" />
     </quest>
@@ -952,7 +950,7 @@
 		<objective type="Craft" id="clubIron" value="1" />
 		<objective type="ZombieKill" value="10" />
 
-		<reward type="Item" value="M4A1Schematic" />
+		<reward type="SkillPoints" value="5" />
 		<reward type="Skill" id="ClassSecurity" value="1" stage="aftercomplete"/> 
     </quest> 
 	
@@ -1011,8 +1009,8 @@
 		<objective type="Craft" id="animalHideGloves" value="1" />
 		<objective type="Craft" id="animalHideBoots" value="1" />
 
-		<reward type="SkillPoints" value="5" />
 		<reward type="Quest" id="quest_classtrainingsurvivalist5" />
+		<reward type="Skill" id="Animal Coops and Snares" value="1" stage="aftercomplete"/> 
     </quest>
 	
 	<quest id="quest_classtrainingsurvivalist5" group_name_key="quest_classtrainingsurvivalist" name_key="quest_classtrainingsurvivalist5" subtitle="Gather Resources" subtitle_key="quest_classtrainingsurvivalist5_subtitle" description_key="quest_classtrainingsurvivalist5_description"
@@ -1040,7 +1038,7 @@
 
 	<quest id="quest_Trader1" name_key="quest_Trader1" subtitle="Defend the Trader (Easy)" subtitle_key="quest_Trader1_subtitle" description_key="quest_Trader1_description" icon="ui_game_symbol_zombie" category_key="quest" offer_key="quest_Trader1_offer" repeatable="true" difficulty="easy">
 
-		<objective type="ZombieKill" value="5" />
+		<objective type="ZombieKill" value="20" />
 
 		<reward type="Item" id="casinoCoin" value="250" />
 		<reward type="Item" id="scrapSkill" value="1" />
@@ -1048,8 +1046,7 @@
 	
 	<quest id="quest_Trader2" name_key="quest_Trader2" subtitle="Defend the Trader (Medium)" subtitle_key="quest_Trader2_subtitle" description_key="quest_Trader2_description" icon="ui_game_symbol_zombie" category_key="quest" offer_key="quest_Trader2_offer" repeatable="true" difficulty="medium">
 
-		<objective type="ZombieKill" value="10"  />
-		<requirement type="Holding" id="clubWood" />
+		<objective type="ZombieKill" id="zombieBoeRadiated,zombieFootballPlayerRadiated,zombieFemaleFatRadiated,zombieJoeRadiated,zombieMoeRadiated,zombieArleneRadiated,zombieDarleneRadiated,zombieMarleneRadiated,zombieYoRadiated,zombieSteveRadiated,zombieBusinessManRadiated,zombieSpiderRadiated,zombieNurseRadiated,zombieFatHawaiianRadiated,zombieFatCopRadiated,zombieUtilityWorkerRadiated,zombieSoldierRadiated,zombieSkateboarderRadiated,zombieCheerleaderRadiated,zombieOldTimerRadiated,zombieBikerRadiated,zombieFarmerRadiated,zombieStripperRadiated" value="15" />
 
 		<reward type="Item" id="casinoCoin" value="400" />
 		<reward type="Item" id="scrapSkill" value="3" />
@@ -1057,11 +1054,10 @@
 	
 	<quest id="quest_Trader3" name_key="quest_Trader3" subtitle="Defend the Trader (Hard)" subtitle_key="quest_Trader3_subtitle" description_key="quest_Trader3_description" icon="ui_game_symbol_zombie" category_key="quest" offer_key="quest_Trader3_offer" repeatable="true" difficulty="hard">
 
-		<objective type="ZombieKill" value="15"  />
-		<requirement type="Holding" id="" />
+		<objective type="ZombieKill" id="zombieArleneFeral,zombieBoeFeral,zombieBusinessManFeral,zombieCheerleaderFeral,zombieDarleneFeral,zombieFarmerFeral,zombieFatCopFeral,zombieFatHawaiianFeral,zombieFemaleFatFeral,zombieJoeFeral,zombieMarleneFeral,zombieMoeFeral,zombieNurseFeral,zombieOldTimerFeral,zombieSkateboarderFeral,zombieSnowFeral,zombieFrostbittenWorkerFeral,zombieSoldierFeral,zombieSpiderFeral,zombieSteveFeral,zombieUtilityWorkerFeral,zombieWightFeral,zombieYoFeral,ZUMABuisnesswomanFeral,ZUMABadGirlFeral,ZUMADoctorMaleFeral,ZUMADoctorFemaleFeral,ZUMAChildFemaleFeral,ZUMAChildFemaleFeral2,ZUMAChildMaleFeral,ZUMAChildMaleFeral2,ZUMAChildMaleFeral3,ZUMAMaleStripperFeral,ZUMABikerFemaleFeral,zombieFootballPlayerFeral,zombieBurntFeral,zombieMaleHazmatFeral,zombieBikerFeral" value="10" />
 
 		<reward type="Item" id="casinoCoin" value="800" />
-		<reward type="Item" id="scrapSkill" value="5" />
+		<reward type="SkillPoints" value="1" />
 	</quest>
 	
 	<quest id="quest_trader_supply1" name_key="quest_trader_supply1" subtitle="Fetch Supplies For The Trader (Easy)" subtitle_key="quest_trader_supply1_subtitle" description_key="quest_trader_supply1_description" icon="ui_game_symbol_fork" category_key="quest" offer_key="quest_trader_supply1_offer" repeatable="true" difficulty="easy">
@@ -1188,6 +1184,7 @@
 		
 		<reward type="SkillPoints" value="3"/>
 		<reward type="Item" id="superCoffee" value="1"/>
+		<reward type="Recipe" id="superCoffee"/>
 	</quest>
 	
 	<quest id="challenge_biggamehunt" name_key="challenge_biggamehunt" subtitle_key="challenge_biggamehunt_subtitle" description_key="challenge_biggamehunt_desc" icon="ui_game_symbol_zombie"
@@ -1209,6 +1206,14 @@
 		<reward type="SkillPoints" value="30" />
 	</quest>
 	
+<!-- Stop Scrapping My Books, Kage! -->
+
+	<quest id="quest_KagesBook" name_key="quest_KagesBook" subtitle_key="quest_KagesBook_subtitle" description_key="quest_KagesBook_offer" icon="ui_game_symbol_skills"
+	repeatable="true" category_key="quest" offer_key="quest_KagesBook_offer" difficulty="easy">
+
+		<reward type="Item" id="scrapSkill" value="15" />
+	</quest>
+	
 <!-- Quest Test 
 
 	<quest id="quest_testpoi" group_name_key="quest_testpoi" name_key="quest_testpoi" subtitle_key="quest_testpoi_subtitle" description_key="quest_testpoi_description" icon="ui_game_symbol_map_trader" category_key="quest" difficulty="medium">
@@ -1219,9 +1224,9 @@
     </quest> 
 	
 	<quest id="quest_testpoi2" group_name_key="quest_testpoi2" name_key="quest_testpoi2" subtitle_key="quest_testpoi2_subtitle" description_key="{mapdaytimetitle}: [DECEA3]{mapdaytime}[-]" icon="ui_game_symbol_map_trader" category_key="quest" difficulty="medium">
-    </quest> -->
+    </quest>
 	
-<!-- Quest Test 2 -->
+Quest Test 2 
 
 	<quest id="quest_testfetch" name_key="quest_testfetch" subtitle_key="quest_testfetch_subtitle" description_key="quest_testfetch_desc" icon="ui_game_symbol_zombie"
 	repeatable="true" category_key="quest" offer_key="quest_testfetch_offer" difficulty="easy">
@@ -1238,6 +1243,6 @@
 		
 		<reward type="Item" id="scrapSkill" value="3" />
 		<reward type="Item" id="casinoCoin" value="200" />
-	</quest>
+	</quest> -->
 
 </quests>

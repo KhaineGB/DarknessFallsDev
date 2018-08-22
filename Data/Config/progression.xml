@@ -2,8 +2,8 @@
 
 <progression>
 <player
-	max_level="200"
-	exp_to_level="11250"
+	max_level="250"
+	exp_to_level="10000"
 	experience_multiplier="1.0149"
 	skill_points_per_level="4"
 	skill_point_multiplier="0"/>
@@ -1203,6 +1203,7 @@
 		<recipe name="pickaxeScrap" unlock_level="1"/>
 		<recipe name="shovelScrap" unlock_level="1"/>
 		<recipe name="hoeScrap" unlock_level="1"/>
+		<recipe name="scrapMachete" unlock_level="1"/>
 	</perk>
 	
 	<!-- Iron Tool Crafting -->
@@ -1218,7 +1219,7 @@
 	
 	<!-- Farming Perk -->
 	
-	<perk name="Farming" icon="resource" description_key="farmingDesc" title_key="farming" max_level="2" skill_point_cost_multiplier="1" skill_point_cost_per_level="3" group="crafting">
+	<perk name="Farming" icon="resource" description_key="farmingDesc" title_key="farming" max_level="2" skill_point_cost_multiplier="1" skill_point_cost_per_level="0" group="crafting">
 		<!-- <requirement skill_level="1" required_skill_name="Scrap Iron Tools" required_skill_level="1"/> -->
 		<recipe name="plantedChrysanthemum1" unlock_level="1"/>
 		<recipe name="plantedCorn1" unlock_level="1"/>
@@ -1236,7 +1237,7 @@
 	
 	<!-- Animal Coop and Snare Perk -->
 	
-	<perk name="Animal Coops and Snares" icon="resource" description_key="animalCoopperkDesc" title_key="animalCoopperk" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="tools">
+	<perk name="Animal Coops and Snares" icon="resource" description_key="animalCoopperkDesc" title_key="animalCoopperk" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="0" group="tools">
 		<recipe name="animalFeed" unlock_level="1"/>
 		<recipe name="animalSnare" unlock_level="1"/>
 		<recipe name="chickenCoop" unlock_level="1"/>
@@ -1589,7 +1590,8 @@
 		<recipe name="TitaniumMinibikeHandlebars" unlock_level="1"/>
 		<recipe name="largeEngine" unlock_level="1"/>
 		<recipe name="largeBattery" unlock_level="1"/>		
-		<recipe name="oilPump" unlock_level="1"/>		
+		<recipe name="oilPump" unlock_level="1"/>
+		<recipe name="steelWrench" unlock_level="1"/>			
 		
 	</perk>
 	
@@ -1606,10 +1608,19 @@
 		<recipe name="steelPolish" unlock_level="1"/>
 		<recipe name="sunblocker" unlock_level="1"/>
 		<recipe name="antirad" unlock_level="1"/>
+		<recipe name="bioFuel" unlock_level="1"/>
 		
 	</perk>
 	
 	<perk name="ClassSecurity" icon="ui_game_symbol_armor_iron" description_key="ClassSecurityDesc" title_key="ClassSecurity" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="0" group="crafting">
+
+		<recipe name="gunM4A1" unlock_level="1"/>
+		<recipe name="gunM4A1Scoped" unlock_level="1"/>
+		<recipe name="partsM4A1_stock" unlock_level="1"/>
+		<recipe name="partsM4A1_receiver" unlock_level="1"/>
+		<recipe name="partsM4A1_parts" unlock_level="1"/>
+		<recipe name="partsM4A1_barrel" unlock_level="1"/>
+		
 	</perk>
 	
 	<perk name="SecurityMastery" icon="ui_game_symbol_armor_iron" description_key="SecurityMasteryDesc" title_key="SecurityMastery" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="30" group="crafting">
@@ -1746,6 +1757,38 @@
 		<recipe name="partsLaserRifle_stock" unlock_level="5"/>
 		<recipe name="partsLaserRifle_parts" unlock_level="5"/>
 		
+	</perk>
+	
+	<perk name="coilgunsperk" icon="pistol" description_key="coingunsperkDesc" title_key="coilgunsperk" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="firearms">	
+		<requirement skill_level="1" required_skill_name="craftSkillWeapons" required_skill_level="5"/>
+		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="2"/>
+		<requirement skill_level="2" required_skill_name="craftSkillWeapons" required_skill_level="6"/>
+		<requirement skill_level="2" required_skill_name="craftSkillScience" required_skill_level="3"/>
+		<requirement skill_level="3" required_skill_name="craftSkillWeapons" required_skill_level="7"/>
+		<requirement skill_level="3" required_skill_name="craftSkillScience" required_skill_level="4"/>
+	
+		<recipe name="gunCoilpistol" unlock_level="1"/>
+		<recipe name="coilBattery" unlock_level="1"/>
+		<recipe name="44MagCoilround" unlock_level="1"/>
+		<recipe name="partsCoilPistol_grip" unlock_level="1"/>
+		<recipe name="partsCoilPistol_cylinder" unlock_level="1"/>
+		<recipe name="partsCoilPistol_parts" unlock_level="1"/>
+		<recipe name="partsCoilPistol_frame" unlock_level="1"/>
+
+		<recipe name="gunCoilcarbine" unlock_level="2"/>
+		<recipe name="44MagCoilroundHP" unlock_level="2"/>
+		<recipe name="762mmCoilround" unlock_level="2"/>
+		<recipe name="partsCoilcarbine_stock" unlock_level="2"/>
+		<recipe name="partsCoilcarbine_receiver" unlock_level="2"/>
+		<recipe name="partsCoilcarbine_parts" unlock_level="2"/>
+		<recipe name="partsCoilcarbine_barrel" unlock_level="2"/>	
+
+		<recipe name="gunCoilRifle" unlock_level="3"/>
+		<recipe name="762mmCoilroundHP" unlock_level="3"/>
+		<recipe name="partsCoilRifle_stock" unlock_level="3"/>
+		<recipe name="partsCoilRifle_receiver" unlock_level="3"/>
+		<recipe name="partsCoilRifle_parts" unlock_level="3"/>
+		<recipe name="partsCoilRifle_barrel" unlock_level="3"/>	
 	</perk>
 	
 <!--
